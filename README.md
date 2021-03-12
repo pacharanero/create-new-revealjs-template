@@ -1,4 +1,4 @@
-# 2021-revealjs-template
+# create-new-revealjs-template
 Reveal.js template presentation as a GitHub repo Template
 * Includes Reveal.js as a Git submodule so that its commit history is not confused with this presentation's history
 * Makes future updating of Reveal.js version very easy
