@@ -9,11 +9,19 @@ Reveal.js template presentation as a GitHub repo Template
 ## Usage
 
 1. Click 'Use This Template'
+
 1. Name your presentation and it will be created in your own GitHub account/org
-1. Customise as necessary
+
+1. Customise as necessary, by cloning locally (or even just using the Github editing UI)
+
 1. If you clone the repo locally you also need to get the submodule files with `git submodule update --init --recursive`
+
+1. You can use any local server to serve the files. One option is live-server (install it with `npm install -g live-server' then type `live-server` in the command line). Using a local server gives you additional features such as live-reload and some of the more advanced Reveal.js features.
+
 1. Push completed slides back to GitHub
+
 1. Configure your GitHub pages settings to serve the slides from _youraccount_.github.io/_repositoryname_ (or custom domain even)
+
 1. **Amaze your friends** by being able to share the URL of your live, interactive slides with your audience immediately. No more emailing PowerPoint attachments for YOU!
 
 ## Updating Reveal.js
