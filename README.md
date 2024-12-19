@@ -18,7 +18,7 @@ Create a new [Reveal.js](https://github.com/hakimel/reveal.js) presentation from
 
 1. If you clone the repo locally you also need to get the submodule files with `git submodule update --init --recursive`
 
-1. You can use any local server to serve the files. One option is `live-server` (install it with `npm install -g live-server' then type `live-server` in the command line). Using a local server gives you additional features such as live-reload and some of the more advanced [Reveal.js](https://github.com/hakimel/reveal.js) features.
+1. You can use any local server to serve the files. One option is `live-server` (install it with `npm install -g live-server` then type `live-server` in the command line). Using a local server gives you additional features such as live-reload and some of the more advanced [Reveal.js](https://github.com/hakimel/reveal.js) features.
 
 1. Push completed slides back to GitHub
 
