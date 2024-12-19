@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# creates a PDF from the slides
+# requires docker to be installed locally and runnable as non-root user
+
+docker run --rm -t \
+  -v `pwd`:/slides \
+  astefanutti/decktape \
+  index.html \
+  slides.pdf
