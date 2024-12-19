@@ -6,6 +6,7 @@ Create a new [Reveal.js](https://github.com/hakimel/reveal.js) presentation from
 * Makes future updating of Reveal.js version very easy (see [Updating](#updating-revealjs) below).
 * Reduces the size of the presentation repositories significantly.
 * Automatically creates update PRs via Dependabot (experimental).
+* Scripts included in the `s/` directory for updating the submodule manually, and for creating a PDF version of the slides.
 
 ## Usage
 
@@ -32,8 +33,13 @@ Create a new [Reveal.js](https://github.com/hakimel/reveal.js) presentation from
 * To update you can use the script `s/update` which updates Reveal.js to latest. The first time you run this command (on some systems) you will need to make it executable, by running `chmod +x s/update`. This can also be done in the File Manager UI in many systems.
 
 * For older repositories made from this template, the command to run is `git submodule update --rebase --remote`, from the **root** of the repository (not the reveal.js submodule directory itself) to update.
-* 
+
 * link for info on updating submodules https://stackoverflow.com/questions/1979167/git-submodule-update
+
+## PDF export of slides
+
+* You can export your slides to PDF using the script `s/pdf`. This will create a PDF file in the root of the repository with the name `slides.pdf`.
+
 
 ## Credits
 
