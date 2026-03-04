@@ -1,4 +1,4 @@
-# create-new-revealjs-template
+# revealjs-submodule-template
 
 Create a new [Reveal.js](https://github.com/hakimel/reveal.js) presentation from this GitHub Template repository.
 
